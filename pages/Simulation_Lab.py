@@ -1,4 +1,4 @@
 import streamlit as st
 import pandas as pd
 
-st.write("Dashboard")
+st.write("Simulation Lab")
