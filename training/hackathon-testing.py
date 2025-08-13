@@ -1,11 +1,12 @@
 from openai import OpenAI
 from pydantic import BaseModel, Field
 from typing import List, Optional
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
 
 # Initialize OpenAI client
-client = OpenAI(
-    api_key=""
-)
+client = OpenAI()
 
 # Define output schema
 class Milestone(BaseModel):
