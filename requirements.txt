@@ -2,4 +2,4 @@ streamlit==1.47.1
 numpy>=2.2.2
 pandas>=2.2.3
 plotly>=6.2.0
-st-gsheets-connection
+st-gsheets-connection==0.1.0
